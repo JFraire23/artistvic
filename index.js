@@ -169,7 +169,7 @@ else{
 
 function agregarAlCarrito(e) {
 	Toastify({
-  		text: "Ejercicio agregado a tu Rutina",
+  		text: "",
   		duration: 2000,
   		close: true,
   		gravity: "top", // `top` or `bottom`
