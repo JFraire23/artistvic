@@ -1,0 +1,498 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	width: 100vw;
+	background: #ffffff;
+	z-index: 0;
+	color: #ff007d;
+}
+
+a{
+	text-decoration: none;
+}
+
+.encabezado{
+	width: 100vw;
+	background: #ffffff;
+	position: sticky;
+	top: 0;
+	z-index: 50;
+	
+}
+
+	.encabezado-superior{
+		width: 100vw;
+		height: 110px;
+		display: flex;
+		justify-content: space-between;
+		background: #ffffff;
+		border-bottom: 3px solid #ff007d;
+	}
+
+		.encabezado-superior-inicio{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 2.3rem;
+			padding-right: 3px;
+
+		}
+
+		.numero{
+			display: flex;
+			color: #00ff00;
+		}
+			.encabezado-superior-inicio-i{
+				color: #00ff00;
+				text-shadow: 3px 2px 0px #000;
+
+			}
+			.encabezado-superior-carrito{
+				display: flex;
+				position: fixed;
+				top: 150px;
+				left: 0px;
+				z-index: 300;
+				font-size: 2rem;
+				background: #000000;
+				border-radius: 3rem;
+				border: solid 3px #ffffff;
+				padding: 3px;
+			}
+			.encabezado-superior-carrito-i{
+				color: #00ff00;
+				text-shadow: 3px 2px 0px #000;
+				display: flex;
+			}
+
+		.encabezado-superior-titulo{
+			/*animation: animacion-titulo 1s linear 1s infinite alternate;*/
+			display: flex;
+			margin-left: 9px;
+			
+			width: 100vw;
+			
+			letter-spacing: 1px;
+			
+			
+			color: #ff007d;
+			text-shadow: 2px 2px 4px #1d00ff;
+					
+		}
+
+		h1{
+			position: absolute;
+			left: 100px;
+			font-size: 2rem;
+			font-family: 'Black Ops One', cursive;	
+			font-weight: 100;
+		}
+		.slogan-1{
+			text-align: center;
+			font-family: sans-serif;
+			color: #fff;
+			position: absolute;
+			top: 15px;
+			left: 105px;
+			font-size: 14px;
+			
+		}
+		.tit-logo{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.img-logo{
+			margin-left: 3px;
+			margin-top: 5px;
+			position: absolute;
+			width: 96px;
+			height: 96px;
+			
+
+			
+		}
+		.slogan-2{
+			text-align: center;
+			font-family: sans-serif;
+			color: #4200E0;
+			position: absolute;
+			left: 120px;
+			top: 65px;
+			font-size: 14px;
+			
+		}
+
+		.servicio{
+			text-align: center;
+		}
+
+		.redes{
+			display: flex;
+			justify-content: space-evenly;
+		}
+		.red-texto{
+			display: block;
+		}
+
+		.red-face-a, .red-insta-a{
+			color: #ffffff;
+			font-size: 12px;
+		}
+		.face, .insta{
+			background: #ffffff;
+			width: 16px;
+
+		}
+
+		.encabezado-barra-busqueda{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 1px;
+	}
+
+
+	.encabezado-2{
+		display: flex;
+		justify-content: space-evenly;
+		font-size: 1rem;
+
+	}
+
+		.encabezado-2-direccion{
+
+		}
+			.encabezado-2-direccion-a{
+				font-size: .75rem;
+				color: #ff007d;
+
+			}
+				.encabezado-2-direccion-i, .encabezado-2-contacto-i, .encabezado-2-sobre-nosotros-i{
+					padding-right: 2px;
+				}
+		.encabezado-2-contacto{
+			color: #ff007d;
+		}
+			.encabezado-2-contacto-i{
+				font-size: .75rem;
+				color: #ff007d;
+			}
+
+		.encabezado-2-sobre-nosotros{
+
+		}
+			.encabezado-2-sobre-nosotros-a{
+				font-size: .75rem;
+				color: #ff007d;
+			}
+
+	.encabezado-3{
+		background: black;
+
+		
+	}
+
+		.encabezado-3-areas{
+
+			display: flex;
+			overflow: scroll;
+			padding-top: 5px;
+			padding-bottom: 1px;
+		}
+
+		.boton-encabezado-3-areas{
+			margin-left: 2px;
+
+		}
+
+			.encabezado-3-areas-a{
+				padding-left: 5px;
+				letter-spacing: 1px;
+				/*color: #000000;*/
+			}
+
+	.encabezado-4{
+		height: 50px;
+	}
+		.encabezado-4-departamentos{
+			display: flex;
+			overflow: scroll;
+			padding-top: 3px;
+			padding-bottom: 1px;
+			/*background: #000000;*/
+			border-bottom: solid 3px #00ff00;
+
+		}
+			.boton-encabezado-4-departamentos{
+				letter-spacing: 1px;
+				background: #ffffff;
+				margin: 3px;
+				border-radius: 12px;
+				padding-left: 2px;
+				padding-right: 2px;
+			}
+
+			.boton-encabezado-4-departamentos.active{
+				background: #ffffff;
+			}
+
+			.encabezado-6-departamentos{
+			display: flex;
+			overflow: scroll;
+			padding-bottom: 1px;
+			/*background: #000000;*/
+
+			border-bottom: solid 3px #ff007d;
+
+		}
+			.boton-encabezado-6-departamentos{
+				letter-spacing: 1px;
+				background: #ffffff;
+				border-radius: 12px;
+				padding: 3px;
+				margin: 3px;
+				font-size: 12px;
+			}
+
+			.boton-encabezado-6-departamentos.active{
+				background: #ff007d;
+			}
+
+
+
+h3{
+	text-align: center;
+
+}
+
+.content{
+	width: 100vw;
+}
+
+h4{
+	text-align: center;
+	background: #000000;
+	color: #ff007d;
+	margin-bottom: 3px;
+	letter-spacing: 1px;
+}
+	.contenedor-imagenes{
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		margin-right: 3px;
+		
+	}
+		.producto{
+			border: solid 3px #000000;
+			justify-content: space-evenly;
+			margin: 3px;
+			border-radius: 1rem;
+		}
+
+		.nombre{
+			text-align: center;
+			color: #000000;
+			background: #ff007d;;
+			border-top-left-radius: 1rem;
+			border-top-right-radius: 1rem;
+			border-bottom: solid 3px #000000;
+		}
+
+			.producto-detalles{
+				display: flex;
+				justify-content: space-between;
+				width: 300px;
+				margin-top: 5px;
+				margin-bottom: 0px;
+				/*border: 3px solid green;*/
+				/*background: #19bf00;*/
+				border-top-left-radius: 1rem;
+				border-top-right-radius: 1rem;
+				border-bottom-left-radius: 1rem;
+				border-bottom-right-radius: 1rem;
+			}
+
+
+				.imagen{
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 150px;
+					/*border: solid 2px red;*/
+					margin: 3px;
+
+				}
+
+				img{
+					border-radius: 1rem;
+
+					/*background: yellow;*/
+
+					
+				}
+
+				.titulo-negocio{
+					height: 20px;
+					font-size: 10px;
+					text-align: center;
+					margin-left: 2px;
+					margin-right: 2px;
+					font-family: 'Oswald', cursive;	 
+					background: yellow;
+					color: #000000;
+				}
+
+
+				.horario-negocio{
+					font-size: 10px;
+					height: 30px;
+					text-align: center;
+					padding-top: 3px;
+					font-family: 'Oswald', cursive;	 
+					background: #ffff20;
+				}
+
+				.descripcion{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					overflow: scroll;
+					font-size: 12px;
+					font-family: sans-serif;
+					padding-top: 3px;
+					padding-left: 1px;
+					padding-right: 1px;
+
+					/*text-align: justify;*/
+					width: 150PX;
+
+
+				}
+
+
+				.agregar-carrito{
+					display: flex;
+					justify-content: center;
+					margin-bottom: 2px;
+					margin-left: 2px;
+					margin-right: 2px;
+				}
+
+					.boton-agregar{
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						padding: 2px;
+						transition: 1s;
+						background:#ff007d;
+						color: #000000;
+						letter-spacing: 0.3px; 
+						border-radius: 12px;
+						font-size: 15px;
+						border: solid 3px #000000;
+					}
+
+					
+					.boton-agregar:hover{
+						transition: 1s;
+						background: #000000;
+						color: #ff007d;
+						border: solid 3px #ff007d;
+					}
+footer{
+	font-size: 12px;
+	margin-top: 3px;
+	padding-top: 2px;
+	background: #000000;
+	position: sticky;
+	bottom: 0;
+	color: #00ff00;
+}
+
+
+
+
+/*DIRECCION*/
+.direccion-titulo{
+	text-align: justify;
+	padding-left: 3px;
+	padding-right: 3px;
+
+}
+	.direccion-titulo-texto{
+		text-align: center;
+		font-size: 2rem;
+		background: #009f00;
+		color: yellow;
+	}
+.mapa-direccion{
+	display: flex;
+	justify-content: center;
+	border: solid 1px green;
+	margin: 3px;
+}
+
+/*SOBRE NOSOTROS*/
+
+.sobre-nosotros, .mision, .vision, .valores{
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 3px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	text-align: justify;
+	font-family: sans-serif;
+
+	
+}
+
+	.sobre-nosotros-titulo, .mision-titulo, .vision-titulo, .valores-titulo{
+		text-align: center;
+		font-size: 2rem;
+		background: #00ff00;
+		font-family: "Lobster", cursive;
+	}
+
+
+.anunciate-texto{
+	background: #efefef;
+	font-family: sans-serif;
+	text-align: justify;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 3px;
+}
+	.texto-inicio{
+		font-family: "Oswald", cursive;
+	}
+
+/*ANIMACIONES*/
+
+@keyframes animacion-titulo{
+		0% {
+			color: #004000; 
+		}
+
+		25% {
+			color: #ff0000;
+		}
+
+		50% {
+			color: #ffffff;
+		}
+
+		75% {
+			color: #1d00ff;
+		}
+
+		100% {
+			color: yellow;
+		}	
+	}
